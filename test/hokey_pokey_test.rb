@@ -64,6 +64,18 @@ VERSE
 
     assert_equal expected, HokeyPokey.new.verse(5)
   end
+  def test_verse_6
+    expected = <<-VERSE
+You put your whole self in
+You put your whole self out
+You put your whole self in
+And you shake it all about
+You do the Hokey Pokey and you turn yourself around
+That's what it's all about!
+VERSE
+
+    assert_equal expected, HokeyPokey.new.verse(6)
+  end
 
   def test_the_whole_song
     expected = <<-SONG
@@ -98,6 +110,13 @@ That's what it's all about!
 You put your head in
 You put your head out
 You put your head in
+And you shake it all about
+You do the Hokey Pokey and you turn yourself around
+That's what it's all about!
+
+You put your whole self in
+You put your whole self out
+You put your whole self in
 And you shake it all about
 You do the Hokey Pokey and you turn yourself around
 That's what it's all about!
